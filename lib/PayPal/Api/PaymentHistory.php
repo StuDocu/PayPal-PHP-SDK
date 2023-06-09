@@ -11,9 +11,9 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property \PayPal\Api\Payment[] payments
- * @property int count
- * @property string next_id
+ * @property \PayPal\Api\Payment[] $payments
+ * @property int $count
+ * @property string $next_id
  */
 class PaymentHistory extends PayPalModel
 {

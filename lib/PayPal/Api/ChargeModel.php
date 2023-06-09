@@ -11,9 +11,9 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property string id
- * @property string type
- * @property \PayPal\Api\Currency amount
+ * @property string $id
+ * @property string $type
+ * @property \PayPal\Api\Currency $amount
  */
 class ChargeModel extends PayPalModel
 {

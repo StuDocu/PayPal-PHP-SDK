@@ -11,16 +11,16 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property string payout_item_id
- * @property string transaction_id
- * @property string transaction_status
- * @property \PayPal\Api\Currency payout_item_fee
- * @property string payout_batch_id
- * @property string sender_batch_id
- * @property \PayPal\Api\PayoutItem payout_item
- * @property string time_processed
- * @property \PayPal\Api\Error errors
- * @property \PayPal\Api\Links[] links
+ * @property string $payout_item_id
+ * @property string $transaction_id
+ * @property string $transaction_status
+ * @property \PayPal\Api\Currency $payout_item_fee
+ * @property string $payout_batch_id
+ * @property string $sender_batch_id
+ * @property \PayPal\Api\PayoutItem $payout_item
+ * @property string $time_processed
+ * @property \PayPal\Api\Error $errors
+ * @property \PayPal\Api\Links[] $links
  */
 class PayoutItemDetails extends PayPalModel
 {

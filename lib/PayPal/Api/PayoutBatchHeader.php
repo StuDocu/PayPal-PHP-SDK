@@ -11,15 +11,15 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property string payout_batch_id
- * @property string batch_status
- * @property string time_created
- * @property string time_completed
- * @property \PayPal\Api\PayoutSenderBatchHeader sender_batch_header
- * @property \PayPal\Api\Currency amount
- * @property \PayPal\Api\Currency fees
- * @property \PayPal\Api\Error errors
- * @property \PayPal\Api\Links[] links
+ * @property string $payout_batch_id
+ * @property string $batch_status
+ * @property string $time_created
+ * @property string $time_completed
+ * @property \PayPal\Api\PayoutSenderBatchHeader $sender_batch_header
+ * @property \PayPal\Api\Currency $amount
+ * @property \PayPal\Api\Currency $fees
+ * @property \PayPal\Api\Error $errors
+ * @property \PayPal\Api\Links[] $links
  */
 class PayoutBatchHeader extends PayPalModel
 {

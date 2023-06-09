@@ -11,11 +11,11 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property string type
- * @property string transaction_id
- * @property string date
- * @property string note
- * @property \PayPal\Api\Currency amount
+ * @property string $type
+ * @property string $transaction_id
+ * @property string $date
+ * @property string $note
+ * @property \PayPal\Api\Currency $amount
  */
 class RefundDetail extends PayPalModel
 {

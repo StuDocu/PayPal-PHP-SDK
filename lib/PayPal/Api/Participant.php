@@ -11,15 +11,15 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property string email
- * @property string first_name
- * @property string last_name
- * @property string business_name
- * @property \PayPal\Api\Phone phone
- * @property \PayPal\Api\Phone fax
- * @property string website
- * @property string additional_info
- * @property \PayPal\Api\Address address
+ * @property string $email
+ * @property string $first_name
+ * @property string $last_name
+ * @property string $business_name
+ * @property \PayPal\Api\Phone $phone
+ * @property \PayPal\Api\Phone $fax
+ * @property string $website
+ * @property string $additional_info
+ * @property \PayPal\Api\Address $address
  */
 class Participant extends PayPalModel
 {

@@ -11,10 +11,10 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property string filter_type
- * @property string filter_id
- * @property string name
- * @property string description
+ * @property string $filter_type
+ * @property string $filter_id
+ * @property string $name
+ * @property string $description
  */
 class FmfDetails extends PayPalModel
 {

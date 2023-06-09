@@ -11,14 +11,14 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property \PayPal\Api\Currency outstanding_balance
- * @property string cycles_remaining
- * @property string cycles_completed
- * @property string next_billing_date
- * @property string last_payment_date
- * @property \PayPal\Api\Currency last_payment_amount
- * @property string final_payment_date
- * @property string failed_payment_count
+ * @property \PayPal\Api\Currency $outstanding_balance
+ * @property string $cycles_remaining
+ * @property string $cycles_completed
+ * @property string $next_billing_date
+ * @property string $last_payment_date
+ * @property \PayPal\Api\Currency $last_payment_amount
+ * @property string $final_payment_date
+ * @property string $failed_payment_count
  */
 class AgreementDetails extends PayPalModel
 {

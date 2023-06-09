@@ -11,24 +11,24 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property string id
- * @property string number
- * @property string type
- * @property string expire_month
- * @property string expire_year
- * @property string start_month
- * @property string start_year
- * @property string cvv2
- * @property string first_name
- * @property string last_name
- * @property string billing_country
- * @property \PayPal\Api\Address billing_address
- * @property string external_customer_id
- * @property string status
- * @property string card_product_class
- * @property string valid_until
- * @property string issue_number
- * @property \PayPal\Api\Links[] links
+ * @property string $id
+ * @property string $number
+ * @property string $type
+ * @property string $expire_month
+ * @property string $expire_year
+ * @property string $start_month
+ * @property string $start_year
+ * @property string $cvv2
+ * @property string $first_name
+ * @property string $last_name
+ * @property string $billing_country
+ * @property \PayPal\Api\Address $billing_address
+ * @property string $external_customer_id
+ * @property string $status
+ * @property string $card_product_class
+ * @property string $valid_until
+ * @property string $issue_number
+ * @property \PayPal\Api\Links[] $links
  */
 class PaymentCard extends PayPalModel
 {

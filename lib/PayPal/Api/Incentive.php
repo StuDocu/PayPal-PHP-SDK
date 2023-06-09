@@ -12,15 +12,15 @@ use PayPal\Validation\UrlValidator;
  *
  * @package PayPal\Api
  *
- * @property string id
- * @property string code
- * @property string name
- * @property string description
- * @property \PayPal\Api\Currency minimum_purchase_amount
- * @property string logo_image_url
- * @property string expiry_date
- * @property string type
- * @property string terms
+ * @property string $id
+ * @property string $code
+ * @property string $name
+ * @property string $description
+ * @property \PayPal\Api\Currency $minimum_purchase_amount
+ * @property string $logo_image_url
+ * @property string $expiry_date
+ * @property string $type
+ * @property string $terms
  */
 class Incentive extends PayPalModel
 {

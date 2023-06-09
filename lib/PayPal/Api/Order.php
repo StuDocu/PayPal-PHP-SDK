@@ -13,20 +13,20 @@ use PayPal\Rest\ApiContext;
  *
  * @package PayPal\Api
  *
- * @property string id
- * @property string reference_id
- * @property \PayPal\Api\Amount amount
- * @property string payment_mode
- * @property string state
- * @property string reason_code
- * @property string pending_reason
- * @property string protection_eligibility
- * @property string protection_eligibility_type
- * @property string parent_payment
- * @property \PayPal\Api\FmfDetails fmf_details
- * @property string create_time
- * @property string update_time
- * @property \PayPal\Api\Links[] links
+ * @property string $id
+ * @property string $reference_id
+ * @property \PayPal\Api\Amount $amount
+ * @property string $payment_mode
+ * @property string $state
+ * @property string $reason_code
+ * @property string $pending_reason
+ * @property string $protection_eligibility
+ * @property string $protection_eligibility_type
+ * @property string $parent_payment
+ * @property \PayPal\Api\FmfDetails $fmf_details
+ * @property string $create_time
+ * @property string $update_time
+ * @property \PayPal\Api\Links[] $links
  */
 class Order extends PayPalResourceModel
 {

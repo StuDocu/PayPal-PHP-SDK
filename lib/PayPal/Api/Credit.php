@@ -11,8 +11,8 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property string id
- * @property string type
+ * @property string $id
+ * @property string $type
  */
 class Credit extends PayPalModel
 {

@@ -11,7 +11,7 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property string verification_status
+ * @property string $verification_status
  */
 class VerifyWebhookSignatureResponse extends PayPalModel
 {

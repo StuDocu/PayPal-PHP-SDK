@@ -14,9 +14,9 @@ use PayPal\Validation\ArgumentValidator;
  *
  * @package PayPal\Api
  *
- * @property \PayPal\Api\PayoutSenderBatchHeader sender_batch_header
- * @property \PayPal\Api\PayoutItem[] items
- * @property \PayPal\Api\Links[] links
+ * @property \PayPal\Api\PayoutSenderBatchHeader $sender_batch_header
+ * @property \PayPal\Api\PayoutItem[] $items
+ * @property \PayPal\Api\Links[] $links
  */
 class Payout extends PayPalResourceModel
 {

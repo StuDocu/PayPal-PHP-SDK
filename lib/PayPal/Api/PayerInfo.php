@@ -11,22 +11,22 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property string email
- * @property string external_remember_me_id
- * @property string buyer_account_number
- * @property string salutation
- * @property string first_name
- * @property string middle_name
- * @property string last_name
- * @property string suffix
- * @property string payer_id
- * @property string phone
- * @property string phone_type
- * @property string birth_date
- * @property string tax_id
- * @property string tax_id_type
- * @property string country_code
- * @property \PayPal\Api\Address billing_address
+ * @property string $email
+ * @property string $external_remember_me_id
+ * @property string $buyer_account_number
+ * @property string $salutation
+ * @property string $first_name
+ * @property string $middle_name
+ * @property string $last_name
+ * @property string $suffix
+ * @property string $payer_id
+ * @property string $phone
+ * @property string $phone_type
+ * @property string $birth_date
+ * @property string $tax_id
+ * @property string $tax_id_type
+ * @property string $country_code
+ * @property \PayPal\Api\Address $billing_address
  */
 class PayerInfo extends PayPalModel
 {

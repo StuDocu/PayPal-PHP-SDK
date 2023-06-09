@@ -9,7 +9,7 @@ namespace PayPal\Api;
  *
  * @package PayPal\Api
  *
- * @property \PayPal\Api\Phone phone
+ * @property \PayPal\Api\Phone $phone
  */
 class InvoiceAddress extends BaseAddress
 {

@@ -11,10 +11,10 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property int term
- * @property \PayPal\Api\Currency monthly_payment
- * @property \PayPal\Api\Currency discount_amount
- * @property string discount_percentage
+ * @property int $term
+ * @property \PayPal\Api\Currency $monthly_payment
+ * @property \PayPal\Api\Currency $discount_amount
+ * @property string $discount_percentage
  */
 class InstallmentOption extends PayPalModel
 {

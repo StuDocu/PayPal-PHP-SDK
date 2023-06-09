@@ -11,10 +11,10 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property string sender_batch_id
- * @property string email_subject
- * @property string recipient_type
- * @property string batch_status
+ * @property string $sender_batch_id
+ * @property string $email_subject
+ * @property string $recipient_type
+ * @property string $batch_status
  */
 class PayoutSenderBatchHeader extends PayPalModel
 {

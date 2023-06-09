@@ -11,8 +11,8 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property string email
- * @property string merchant_id
+ * @property string $email
+ * @property string $merchant_id
  */
 class Payee extends PayPalModel
 {

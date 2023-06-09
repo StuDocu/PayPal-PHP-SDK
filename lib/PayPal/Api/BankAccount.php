@@ -12,29 +12,29 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property string account_number
- * @property string account_number_type
- * @property string routing_number
- * @property string account_type
- * @property string account_name
- * @property string check_type
- * @property string auth_type
- * @property string auth_capture_timestamp
- * @property string bank_name
- * @property string country_code
- * @property string first_name
- * @property string last_name
- * @property string birth_date
- * @property \PayPal\Api\Address billing_address
- * @property string state
- * @property string confirmation_status
- * @property string payer_id
- * @property string external_customer_id
- * @property string merchant_id
- * @property string create_time
- * @property string update_time
- * @property string valid_until
- * @property \PayPal\Api\Links[] links
+ * @property string $account_number
+ * @property string $account_number_type
+ * @property string $routing_number
+ * @property string $account_type
+ * @property string $account_name
+ * @property string $check_type
+ * @property string $auth_type
+ * @property string $auth_capture_timestamp
+ * @property string $bank_name
+ * @property string $country_code
+ * @property string $first_name
+ * @property string $last_name
+ * @property string $birth_date
+ * @property \PayPal\Api\Address $billing_address
+ * @property string $state
+ * @property string $confirmation_status
+ * @property string $payer_id
+ * @property string $external_customer_id
+ * @property string $merchant_id
+ * @property string $create_time
+ * @property string $update_time
+ * @property string $valid_until
+ * @property \PayPal\Api\Links[] $links
  */
 class BankAccount extends PayPalModel
 {

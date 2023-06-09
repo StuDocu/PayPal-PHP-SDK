@@ -11,9 +11,9 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property \PayPal\Api\CreditCard[] credit_cards
- * @property int count
- * @property string next_id
+ * @property \PayPal\Api\CreditCard[] $credit_cards
+ * @property int $count
+ * @property string $next_id
  */
 class CreditCardHistory extends PayPalModel
 {

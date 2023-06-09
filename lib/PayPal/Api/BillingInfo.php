@@ -11,15 +11,15 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property string email
- * @property string first_name
- * @property string last_name
- * @property string business_name
- * @property \PayPal\Api\InvoiceAddress address
- * @property string language
- * @property string additional_info
- * @property string notification_channel
- * @property \PayPal\Api\Phone phone
+ * @property string $email
+ * @property string $first_name
+ * @property string $last_name
+ * @property string $business_name
+ * @property \PayPal\Api\InvoiceAddress $address
+ * @property string $language
+ * @property string $additional_info
+ * @property string $notification_channel
+ * @property \PayPal\Api\Phone $phone
  */
 class BillingInfo extends PayPalModel
 {

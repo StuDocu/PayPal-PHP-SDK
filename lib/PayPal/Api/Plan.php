@@ -15,16 +15,16 @@ use PayPal\Validation\ArgumentValidator;
  *
  * @package PayPal\Api
  *
- * @property string id
- * @property string name
- * @property string description
- * @property string type
- * @property string state
- * @property string create_time
- * @property string update_time
- * @property \PayPal\Api\PaymentDefinition[] payment_definitions
- * @property \PayPal\Api\Terms[] terms
- * @property \PayPal\Api\MerchantPreferences merchant_preferences
+ * @property string $id
+ * @property string $name
+ * @property string $description
+ * @property string $type
+ * @property string $state
+ * @property string $create_time
+ * @property string $update_time
+ * @property \PayPal\Api\PaymentDefinition[] $payment_definitions
+ * @property \PayPal\Api\Terms[] $terms
+ * @property \PayPal\Api\MerchantPreferences $merchant_preferences
  */
 class Plan extends PayPalResourceModel
 {

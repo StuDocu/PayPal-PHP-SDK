@@ -11,9 +11,9 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property \PayPal\Api\CreditCard credit_card
- * @property \PayPal\Api\CreditCardToken credit_card_token
- * @property \PayPal\Api\Billing billing
+ * @property \PayPal\Api\CreditCard $credit_card
+ * @property \PayPal\Api\CreditCardToken $credit_card_token
+ * @property \PayPal\Api\Billing $billing
  */
 class FundingInstrument extends PayPalModel
 {

@@ -11,10 +11,10 @@ use PayPal\Common\PayPalResourceModel;
  *
  * @package PayPal\Api
  *
- * @property \PayPal\Api\CreditCard[] items
- * @property \PayPal\Api\Links[] links
- * @property int total_items
- * @property int total_pages
+ * @property \PayPal\Api\CreditCard[] $items
+ * @property \PayPal\Api\Links[] $links
+ * @property int $total_items
+ * @property int $total_pages
  */
 class CreditCardList extends PayPalResourceModel
 {

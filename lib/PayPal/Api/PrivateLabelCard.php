@@ -11,11 +11,11 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property string id
- * @property string card_number
- * @property string issuer_id
- * @property string issuer_name
- * @property string image_key
+ * @property string $id
+ * @property string $card_number
+ * @property string $issuer_id
+ * @property string $issuer_name
+ * @property string $image_key
  */
 class PrivateLabelCard extends PayPalModel
 {

@@ -14,13 +14,13 @@ use PayPal\Validation\ArgumentValidator;
  *
  * @package PayPal\Api
  *
- * @property string template_id
- * @property string name
- * @property bool default
- * @property \PayPal\Api\TemplateData template_data
- * @property \PayPal\Api\TemplateSettings[] settings
- * @property string unit_of_measure
- * @property bool custom
+ * @property string $template_id
+ * @property string $name
+ * @property bool $default
+ * @property \PayPal\Api\TemplateData $template_data
+ * @property \PayPal\Api\TemplateSettings[] $settings
+ * @property string $unit_of_measure
+ * @property bool $custom
  */
 class Template extends PayPalResourceModel
 {

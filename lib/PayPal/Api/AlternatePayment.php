@@ -13,9 +13,9 @@ use PayPal\Common\PayPalModel;
  *
  * @deprecated Used for limited release only.
  *
- * @property string alternate_payment_account_id
- * @property string external_customer_id
- * @property string alternate_payment_provider_id
+ * @property string $alternate_payment_account_id
+ * @property string $external_customer_id
+ * @property string $alternate_payment_provider_id
  */
 class AlternatePayment extends PayPalModel
 {

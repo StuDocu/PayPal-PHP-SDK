@@ -12,18 +12,18 @@ use PayPal\Validation\ArgumentValidator;
  *
  * @package    PayPal\Api
  *
- * @property string              number
- * @property string              type
- * @property int                 expire_month
- * @property int                 expire_year
- * @property string              cvv2
- * @property string              first_name
- * @property string              last_name
- * @property \PayPal\Api\Address billing_address
- * @property string              external_customer_id
- * @property string              state
- * @property string              valid_until
- * @property \PayPal\Api\Links[] links
+ * @property string $             number
+ * @property string $             type
+ * @property int $                expire_month
+ * @property int $                expire_year
+ * @property string $             cvv2
+ * @property string $             first_name
+ * @property string $             last_name
+ * @property \PayPal\Api\Address $billing_address
+ * @property string $             external_customer_id
+ * @property string $             state
+ * @property string $             valid_until
+ * @property \PayPal\Api\Links[] $links
  */
 class CreditCard extends PayPalResourceModel
 {

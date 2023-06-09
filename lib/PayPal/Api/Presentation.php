@@ -11,11 +11,11 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property string brand_name
- * @property string logo_image
- * @property string locale_code
- * @property string return_url_label
- * @property string note_to_seller_label
+ * @property string $brand_name
+ * @property string $logo_image
+ * @property string $locale_code
+ * @property string $return_url_label
+ * @property string $note_to_seller_label
  */
 class Presentation extends PayPalModel
 {

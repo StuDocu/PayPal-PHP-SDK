@@ -13,13 +13,13 @@ use PayPal\Validation\ArgumentValidator;
  *
  * @package PayPal\Api
  *
- * @property string                                  reference_number
- * @property string                                  instruction_type
- * @property \PayPal\Api\RecipientBankingInstruction recipient_banking_instruction
- * @property \PayPal\Api\Currency                    amount
- * @property string                                  payment_due_date
- * @property string                                  note
- * @property \PayPal\Api\Links[]                     links
+ * @property string $                                 reference_number
+ * @property string $                                 instruction_type
+ * @property \PayPal\Api\RecipientBankingInstruction $recipient_banking_instruction
+ * @property \PayPal\Api\Currency $                   amount
+ * @property string $                                 payment_due_date
+ * @property string $                                 note
+ * @property \PayPal\Api\Links[] $                    links
  */
 class PaymentInstruction extends PayPalResourceModel
 {

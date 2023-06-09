@@ -11,12 +11,12 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property string                     name
- * @property string                     message
- * @property \PayPal\Api\ErrorDetails[] details
- * @property string                     information_link
- * @property string                     debug_id
- * @property \PayPal\Api\Links[]        links
+ * @property string $                    name
+ * @property string $                    message
+ * @property \PayPal\Api\ErrorDetails[] $details
+ * @property string $                    information_link
+ * @property string $                    debug_id
+ * @property \PayPal\Api\Links[] $       links
  */
 class Error extends PayPalModel
 {

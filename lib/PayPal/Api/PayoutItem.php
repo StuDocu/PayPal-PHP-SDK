@@ -14,11 +14,11 @@ use PayPal\Validation\ArgumentValidator;
  *
  * @package PayPal\Api
  *
- * @property string recipient_type
- * @property \PayPal\Api\Currency amount
- * @property string note
- * @property string receiver
- * @property string sender_item_id
+ * @property string $recipient_type
+ * @property \PayPal\Api\Currency $amount
+ * @property string $note
+ * @property string $receiver
+ * @property string $sender_item_id
  */
 class PayoutItem extends PayPalResourceModel
 {

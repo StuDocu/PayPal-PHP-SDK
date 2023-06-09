@@ -9,7 +9,7 @@ namespace PayPal\Api;
  *
  * @package PayPal\Api
  *
- * @property string id
+ * @property string $id
  */
 class CreateProfileResponse extends WebProfile
 {

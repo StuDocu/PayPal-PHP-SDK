@@ -13,14 +13,14 @@ use PayPal\Validation\NumericValidator;
  *
  * @package PayPal\Api
  *
- * @property string subtotal
- * @property string shipping
- * @property string tax
- * @property string handling_fee
- * @property string shipping_discount
- * @property string insurance
- * @property string gift_wrap
- * @property string fee
+ * @property string $subtotal
+ * @property string $shipping
+ * @property string $tax
+ * @property string $handling_fee
+ * @property string $shipping_discount
+ * @property string $insurance
+ * @property string $gift_wrap
+ * @property string $fee
  */
 class Details extends PayPalModel
 {

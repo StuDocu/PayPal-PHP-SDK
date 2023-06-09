@@ -11,10 +11,10 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property \PayPal\Api\Plan[] plans
- * @property string total_items
- * @property string total_pages
- * @property \PayPal\Api\Links[] links
+ * @property \PayPal\Api\Plan[] $plans
+ * @property string $total_items
+ * @property string $total_pages
+ * @property \PayPal\Api\Links[] $links
  */
 class PlanList extends PayPalModel
 {

@@ -11,11 +11,11 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property string street_address
- * @property string locality
- * @property string region
- * @property string postal_code
- * @property string country
+ * @property string $street_address
+ * @property string $locality
+ * @property string $region
+ * @property string $postal_code
+ * @property string $country
  */
 class OpenIdAddress extends PayPalModel
 {

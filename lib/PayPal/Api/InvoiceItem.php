@@ -14,14 +14,14 @@ use PayPal\Validation\UrlValidator;
  *
  * @package PayPal\Api
  *
- * @property string name
- * @property string description
- * @property \PayPal\Api\number quantity
- * @property \PayPal\Api\Currency unit_price
- * @property \PayPal\Api\Tax tax
- * @property string date
- * @property \PayPal\Api\Cost discount
- * @property string unit_of_measure
+ * @property string $name
+ * @property string $description
+ * @property \PayPal\Api\number $quantity
+ * @property \PayPal\Api\Currency $unit_price
+ * @property \PayPal\Api\Tax $tax
+ * @property string $date
+ * @property \PayPal\Api\Cost $discount
+ * @property string $unit_of_measure
  */
 class InvoiceItem extends PayPalModel
 {

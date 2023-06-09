@@ -11,9 +11,9 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property string bank_id
- * @property string external_customer_id
- * @property string mandate_reference_number
+ * @property string $bank_id
+ * @property string $external_customer_id
+ * @property string $mandate_reference_number
  */
 class BankToken extends PayPalModel
 {

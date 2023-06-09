@@ -14,17 +14,17 @@ use PayPal\Rest\ApiContext;
  *
  * @package PayPal\Api
  *
- * @property string id
- * @property \PayPal\Api\Amount amount
- * @property bool is_final_capture
- * @property string state
- * @property string reason_code
- * @property string parent_payment
- * @property string invoice_number
- * @property \PayPal\Api\Currency transaction_fee
- * @property string create_time
- * @property string update_time
- * @property \PayPal\Api\Links[] links
+ * @property string $id
+ * @property \PayPal\Api\Amount $amount
+ * @property bool $is_final_capture
+ * @property string $state
+ * @property string $reason_code
+ * @property string $parent_payment
+ * @property string $invoice_number
+ * @property \PayPal\Api\Currency $transaction_fee
+ * @property string $create_time
+ * @property string $update_time
+ * @property \PayPal\Api\Links[] $links
  */
 class Capture extends PayPalResourceModel
 {

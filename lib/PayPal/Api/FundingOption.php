@@ -11,12 +11,12 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property string id
- * @property \PayPal\Api\FundingSource[] funding_sources
- * @property \PayPal\Api\FundingInstrument backup_funding_instrument
- * @property \PayPal\Api\CurrencyConversion currency_conversion
- * @property \PayPal\Api\InstallmentInfo installment_info
- * @property \PayPal\Api\Links[] links
+ * @property string $id
+ * @property \PayPal\Api\FundingSource[] $funding_sources
+ * @property \PayPal\Api\FundingInstrument $backup_funding_instrument
+ * @property \PayPal\Api\CurrencyConversion $currency_conversion
+ * @property \PayPal\Api\InstallmentInfo $installment_info
+ * @property \PayPal\Api\Links[] $links
  */
 class FundingOption extends PayPalModel
 {

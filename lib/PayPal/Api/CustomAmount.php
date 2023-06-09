@@ -11,8 +11,8 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property string label
- * @property \PayPal\Api\Currency amount
+ * @property string $label
+ * @property \PayPal\Api\Currency $amount
  */
 class CustomAmount extends PayPalModel
 {

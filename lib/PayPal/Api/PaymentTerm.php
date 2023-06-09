@@ -11,8 +11,8 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property string term_type
- * @property string due_date
+ * @property string $term_type
+ * @property string $due_date
  */
 class PaymentTerm extends PayPalModel
 {

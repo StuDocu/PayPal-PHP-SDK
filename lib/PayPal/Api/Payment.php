@@ -14,19 +14,19 @@ use PayPal\Rest\ApiContext;
  *
  * @package PayPal\Api
  *
- * @property string id
- * @property string intent
- * @property \PayPal\Api\Payer payer
- * @property \PayPal\Api\Transaction[] transactions
- * @property string state
- * @property string experience_profile_id
- * @property string note_to_payer
- * @property \PayPal\Api\Payee $payee
- * @property \PayPal\Api\RedirectUrls redirect_urls
- * @property string failure_reason
- * @property string create_time
- * @property string update_time
- * @property \PayPal\Api\Links[] links
+ * @property string $id
+ * @property string $intent
+ * @property \PayPal\Api\Payer $payer
+ * @property \PayPal\Api\Transaction[] $transactions
+ * @property string $state
+ * @property string $experience_profile_id
+ * @property string $note_to_payer
+ * @property \PayPal\Api\Payee $$payee
+ * @property \PayPal\Api\RedirectUrls $redirect_urls
+ * @property string $failure_reason
+ * @property string $create_time
+ * @property string $update_time
+ * @property \PayPal\Api\Links[] $links
  */
 class Payment extends PayPalResourceModel
 {

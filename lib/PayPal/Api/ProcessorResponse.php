@@ -11,12 +11,12 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property string response_code
- * @property string avs_code
- * @property string cvv_code
- * @property string advice_code
- * @property string eci_submitted
- * @property string vpas
+ * @property string $response_code
+ * @property string $avs_code
+ * @property string $cvv_code
+ * @property string $advice_code
+ * @property string $eci_submitted
+ * @property string $vpas
  */
 class ProcessorResponse extends PayPalModel
 {

@@ -11,14 +11,14 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property string id
- * @property string name
- * @property string type
- * @property string frequency_interval
- * @property string frequency
- * @property string cycles
- * @property \PayPal\Api\Currency amount
- * @property \PayPal\Api\ChargeModel[] charge_models
+ * @property string $id
+ * @property string $name
+ * @property string $type
+ * @property string $frequency_interval
+ * @property string $frequency
+ * @property string $cycles
+ * @property \PayPal\Api\Currency $amount
+ * @property \PayPal\Api\ChargeModel[] $charge_models
  */
 class PaymentDefinition extends PayPalModel
 {

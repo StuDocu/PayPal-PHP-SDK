@@ -11,12 +11,12 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property \PayPal\Api\Amount amount
- * @property string description
- * @property string refund_source
- * @property string reason
- * @property string invoice_number
- * @property bool refund_advice
+ * @property \PayPal\Api\Amount $amount
+ * @property string $description
+ * @property string $refund_source
+ * @property string $reason
+ * @property string $invoice_number
+ * @property bool $refund_advice
  */
 class RefundRequest extends PayPalModel
 {

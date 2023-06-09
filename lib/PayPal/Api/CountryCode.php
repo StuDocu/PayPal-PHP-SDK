@@ -11,7 +11,7 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property string country_code
+ * @property string $country_code
  */
 class CountryCode extends PayPalModel
 {

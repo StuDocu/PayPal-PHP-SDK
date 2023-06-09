@@ -11,7 +11,7 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property \PayPal\Api\AgreementTransaction[] agreement_transaction_list
+ * @property \PayPal\Api\AgreementTransaction[] $agreement_transaction_list
  */
 class AgreementTransactions extends PayPalModel
 {

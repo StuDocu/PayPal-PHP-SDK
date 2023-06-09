@@ -10,12 +10,12 @@ namespace PayPal\Api;
  *
  * @package PayPal\Api
  *
- * @property string custom
- * @property \PayPal\Api\Currency refund_to_payer
- * @property \PayPal\Api\ExternalFunding[] refund_to_external_funding
- * @property \PayPal\Api\Currency refund_from_transaction_fee
- * @property \PayPal\Api\Currency refund_from_received_amount
- * @property \PayPal\Api\Currency total_refunded_amount
+ * @property string $custom
+ * @property \PayPal\Api\Currency $refund_to_payer
+ * @property \PayPal\Api\ExternalFunding[] $refund_to_external_funding
+ * @property \PayPal\Api\Currency $refund_from_transaction_fee
+ * @property \PayPal\Api\Currency $refund_from_received_amount
+ * @property \PayPal\Api\Currency $total_refunded_amount
  */
 class DetailedRefund extends Refund
 {

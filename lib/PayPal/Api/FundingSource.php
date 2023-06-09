@@ -11,15 +11,15 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property string funding_mode
- * @property string funding_instrument_type
- * @property string soft_descriptor
- * @property \PayPal\Api\Currency amount
- * @property \PayPal\Api\Currency negative_balance_amount
- * @property string legal_text
- * @property \PayPal\Api\FundingDetail funding_detail
- * @property string additional_text
- * @property \PayPal\Api\Links[] links
+ * @property string $funding_mode
+ * @property string $funding_instrument_type
+ * @property string $soft_descriptor
+ * @property \PayPal\Api\Currency $amount
+ * @property \PayPal\Api\Currency $negative_balance_amount
+ * @property string $legal_text
+ * @property \PayPal\Api\FundingDetail $funding_detail
+ * @property string $additional_text
+ * @property \PayPal\Api\Links[] $links
  */
 class FundingSource extends FundingInstrument
 {

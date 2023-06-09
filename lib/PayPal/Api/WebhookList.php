@@ -11,7 +11,7 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property \PayPal\Api\Webhook[] webhooks
+ * @property \PayPal\Api\Webhook[] $webhooks
  */
 class WebhookList extends PayPalModel
 {

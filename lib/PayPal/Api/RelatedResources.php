@@ -11,11 +11,11 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property \PayPal\Api\Sale sale
- * @property \PayPal\Api\Authorization authorization
- * @property \PayPal\Api\Order order
- * @property \PayPal\Api\Capture capture
- * @property \PayPal\Api\Refund refund
+ * @property \PayPal\Api\Sale $sale
+ * @property \PayPal\Api\Authorization $authorization
+ * @property \PayPal\Api\Order $order
+ * @property \PayPal\Api\Capture $capture
+ * @property \PayPal\Api\Refund $refund
  */
 class RelatedResources extends PayPalModel
 {

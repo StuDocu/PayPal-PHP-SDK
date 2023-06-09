@@ -12,16 +12,16 @@ use PayPal\Validation\UrlValidator;
  *
  * @package PayPal\Api
  *
- * @property string id
- * @property \PayPal\Api\Currency setup_fee
- * @property string cancel_url
- * @property string return_url
- * @property string notify_url
- * @property string max_fail_attempts
- * @property string auto_bill_amount
- * @property string initial_fail_amount_action
- * @property string accepted_payment_type
- * @property string char_set
+ * @property string $id
+ * @property \PayPal\Api\Currency $setup_fee
+ * @property string $cancel_url
+ * @property string $return_url
+ * @property string $notify_url
+ * @property string $max_fail_attempts
+ * @property string $auto_bill_amount
+ * @property string $initial_fail_amount_action
+ * @property string $accepted_payment_type
+ * @property string $char_set
  */
 class MerchantPreferences extends PayPalModel
 {

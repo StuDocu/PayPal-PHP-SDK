@@ -12,8 +12,8 @@ use PayPal\Validation\UrlValidator;
  *
  * @package PayPal\Api
  *
- * @property string name
- * @property string url
+ * @property string $name
+ * @property string $url
  */
 class FileAttachment extends PayPalModel
 {

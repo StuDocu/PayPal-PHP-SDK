@@ -16,15 +16,15 @@ use PayPal\Validation\JsonValidator;
  *
  * @package PayPal\Api
  *
- * @property string id
- * @property string create_time
- * @property string resource_type
- * @property string event_version
- * @property string event_type
- * @property string summary
- * @property \PayPal\Common\PayPalModel resource
- * @property string status
- * @property mixed[] transmissions
+ * @property string $id
+ * @property string $create_time
+ * @property string $resource_type
+ * @property string $event_version
+ * @property string $event_type
+ * @property string $summary
+ * @property \PayPal\Common\PayPalModel $resource
+ * @property string $status
+ * @property mixed[] $transmissions
  */
 class WebhookEvent extends PayPalResourceModel
 {

@@ -11,12 +11,12 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property \PayPal\Api\Currency total_cost
- * @property \PayPal\Api\number term
- * @property \PayPal\Api\Currency monthly_payment
- * @property \PayPal\Api\Currency total_interest
- * @property bool payer_acceptance
- * @property bool cart_amount_immutable
+ * @property \PayPal\Api\Currency $total_cost
+ * @property \PayPal\Api\number $term
+ * @property \PayPal\Api\Currency $monthly_payment
+ * @property \PayPal\Api\Currency $total_interest
+ * @property bool $payer_acceptance
+ * @property bool $cart_amount_immutable
  */
 class CreditFinancingOffered extends PayPalModel
 {

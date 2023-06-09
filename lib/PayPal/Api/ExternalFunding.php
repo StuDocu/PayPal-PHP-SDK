@@ -11,12 +11,12 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property string reference_id
- * @property string code
- * @property string funding_account_id
- * @property string display_text
- * @property \PayPal\Api\Amount amount
- * @property string funding_instruction
+ * @property string $reference_id
+ * @property string $code
+ * @property string $funding_account_id
+ * @property string $display_text
+ * @property \PayPal\Api\Amount $amount
+ * @property string $funding_instruction
  */
 class ExternalFunding extends PayPalModel
 {

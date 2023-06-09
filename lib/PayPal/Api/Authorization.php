@@ -13,23 +13,23 @@ use PayPal\Rest\ApiContext;
  *
  * @package PayPal\Api
  *
- * @property string id
- * @property \PayPal\Api\Amount amount
- * @property string payment_mode
- * @property string state
- * @property string reason_code
- * @property string pending_reason
- * @property string protection_eligibility
- * @property string protection_eligibility_type
- * @property \PayPal\Api\FmfDetails fmf_details
- * @property string parent_payment
- * @property \PayPal\Api\ProcessorResponse processor_response
- * @property string valid_until
- * @property string create_time
- * @property string update_time
- * @property string reference_id
- * @property string receipt_id
- * @property \PayPal\Api\Links[] links
+ * @property string $id
+ * @property \PayPal\Api\Amount $amount
+ * @property string $payment_mode
+ * @property string $state
+ * @property string $reason_code
+ * @property string $pending_reason
+ * @property string $protection_eligibility
+ * @property string $protection_eligibility_type
+ * @property \PayPal\Api\FmfDetails $fmf_details
+ * @property string $parent_payment
+ * @property \PayPal\Api\ProcessorResponse $processor_response
+ * @property string $valid_until
+ * @property string $create_time
+ * @property string $update_time
+ * @property string $reference_id
+ * @property string $receipt_id
+ * @property \PayPal\Api\Links[] $links
  */
 class Authorization extends PayPalResourceModel
 {

@@ -11,26 +11,26 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property string email
- * @property string recipient_first_name
- * @property string recipient_last_name
- * @property string recipient_business_name
- * @property string number
- * @property string status
- * @property \PayPal\Api\Currency lower_total_amount
- * @property \PayPal\Api\Currency upper_total_amount
- * @property string start_invoice_date
- * @property string end_invoice_date
- * @property string start_due_date
- * @property string end_due_date
- * @property string start_payment_date
- * @property string end_payment_date
- * @property string start_creation_date
- * @property string end_creation_date
- * @property \PayPal\Api\number page
- * @property \PayPal\Api\number page_size
- * @property bool total_count_required
- * @property bool archived
+ * @property string $email
+ * @property string $recipient_first_name
+ * @property string $recipient_last_name
+ * @property string $recipient_business_name
+ * @property string $number
+ * @property string $status
+ * @property \PayPal\Api\Currency $lower_total_amount
+ * @property \PayPal\Api\Currency $upper_total_amount
+ * @property string $start_invoice_date
+ * @property string $end_invoice_date
+ * @property string $start_due_date
+ * @property string $end_due_date
+ * @property string $start_payment_date
+ * @property string $end_payment_date
+ * @property string $start_creation_date
+ * @property string $end_creation_date
+ * @property \PayPal\Api\number $page
+ * @property \PayPal\Api\number $page_size
+ * @property bool $total_count_required
+ * @property bool $archived
  */
 class Search extends PayPalModel
 {

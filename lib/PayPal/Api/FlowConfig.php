@@ -12,10 +12,10 @@ use PayPal\Validation\UrlValidator;
  *
  * @package PayPal\Api
  *
- * @property string landing_page_type
- * @property string bank_txn_pending_url
- * @property string user_action
- * @property string return_uri_http_method
+ * @property string $landing_page_type
+ * @property string $bank_txn_pending_url
+ * @property string $user_action
+ * @property string $return_uri_http_method
  */
 class FlowConfig extends PayPalModel
 {

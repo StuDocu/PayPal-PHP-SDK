@@ -11,7 +11,7 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property \PayPal\Api\WebhookEventType[] event_types
+ * @property \PayPal\Api\WebhookEventType[] $event_types
  */
 class WebhookEventTypeList extends PayPalModel
 {

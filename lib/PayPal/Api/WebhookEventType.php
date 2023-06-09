@@ -14,9 +14,9 @@ use PayPal\Rest\ApiContext;
  *
  * @package PayPal\Api
  *
- * @property string name
- * @property string description
- * @property string status
+ * @property string $name
+ * @property string $description
+ * @property string $status
  */
 class WebhookEventType extends PayPalResourceModel
 {

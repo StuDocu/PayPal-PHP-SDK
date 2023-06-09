@@ -11,16 +11,16 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property string transaction_id
- * @property string status
- * @property string transaction_type
- * @property \PayPal\Api\Currency amount
- * @property \PayPal\Api\Currency fee_amount
- * @property \PayPal\Api\Currency net_amount
- * @property string payer_email
- * @property string payer_name
- * @property string time_stamp
- * @property string time_zone
+ * @property string $transaction_id
+ * @property string $status
+ * @property string $transaction_type
+ * @property \PayPal\Api\Currency $amount
+ * @property \PayPal\Api\Currency $fee_amount
+ * @property \PayPal\Api\Currency $net_amount
+ * @property string $payer_email
+ * @property string $payer_name
+ * @property string $time_stamp
+ * @property string $time_zone
  */
 class AgreementTransaction extends PayPalModel
 {

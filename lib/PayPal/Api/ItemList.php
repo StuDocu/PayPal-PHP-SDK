@@ -11,10 +11,10 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property \PayPal\Api\Item[] items
- * @property \PayPal\Api\ShippingAddress shipping_address
- * @property string shipping_method
- * @property string shipping_phone_number
+ * @property \PayPal\Api\Item[] $items
+ * @property \PayPal\Api\ShippingAddress $shipping_address
+ * @property string $shipping_method
+ * @property string $shipping_phone_number
  */
 class ItemList extends PayPalModel
 {

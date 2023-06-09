@@ -9,7 +9,7 @@ namespace PayPal\Api;
  *
  * @package PayPal\Api
  *
- * @property string recipient_name
+ * @property string $recipient_name
  */
 class ShippingAddress extends Address
 {

@@ -11,8 +11,8 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property string field
- * @property string issue
+ * @property string $field
+ * @property string $issue
  */
 class ErrorDetails extends PayPalModel
 {

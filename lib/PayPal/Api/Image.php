@@ -9,7 +9,7 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property string image
+ * @property string $image
  */
 class Image extends PayPalModel
 {

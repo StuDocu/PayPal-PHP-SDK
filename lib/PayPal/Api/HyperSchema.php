@@ -11,12 +11,12 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property \PayPal\Api\Links[] links
- * @property string fragmentResolution
- * @property bool readonly
- * @property string contentEncoding
- * @property string pathStart
- * @property string mediaType
+ * @property \PayPal\Api\Links[] $links
+ * @property string $fragmentResolution
+ * @property bool $readonly
+ * @property string $contentEncoding
+ * @property string $pathStart
+ * @property string $mediaType
  */
 class HyperSchema extends PayPalModel
 {

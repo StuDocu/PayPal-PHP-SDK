@@ -11,7 +11,7 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property string allowed_payment_method
+ * @property string $allowed_payment_method
  */
 class PaymentOptions extends PayPalModel
 {

@@ -11,8 +11,8 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property string value
- * @property string unit
+ * @property string $value
+ * @property string $unit
  */
 class Measurement extends PayPalModel
 {

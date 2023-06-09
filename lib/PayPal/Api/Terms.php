@@ -11,12 +11,12 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property string id
- * @property string type
- * @property \PayPal\Api\Currency max_billing_amount
- * @property string occurrences
- * @property \PayPal\Api\Currency amount_range
- * @property string buyer_editable
+ * @property string $id
+ * @property string $type
+ * @property \PayPal\Api\Currency $max_billing_amount
+ * @property string $occurrences
+ * @property \PayPal\Api\Currency $amount_range
+ * @property string $buyer_editable
  */
 class Terms extends PayPalModel
 {

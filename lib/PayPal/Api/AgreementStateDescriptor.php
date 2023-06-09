@@ -11,8 +11,8 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property string note
- * @property \PayPal\Api\Currency amount
+ * @property string $note
+ * @property \PayPal\Api\Currency $amount
  */
 class AgreementStateDescriptor extends PayPalModel
 {

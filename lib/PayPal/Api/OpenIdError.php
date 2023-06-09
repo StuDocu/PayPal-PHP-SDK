@@ -8,9 +8,9 @@ use PayPal\Common\PayPalModel;
  *
  * Error resource
  *
- * @property string error
- * @property string error_description
- * @property string error_uri
+ * @property string $error
+ * @property string $error_description
+ * @property string $error_uri
  */
 class OpenIdError extends PayPalModel
 {

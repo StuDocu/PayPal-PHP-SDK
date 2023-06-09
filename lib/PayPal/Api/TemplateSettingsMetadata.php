@@ -11,7 +11,7 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property bool hidden
+ * @property bool $hidden
  */
 class TemplateSettingsMetadata extends PayPalModel
 {

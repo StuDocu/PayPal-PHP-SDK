@@ -11,8 +11,8 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property int total_count
- * @property \PayPal\Api\Invoice[] invoices
+ * @property int $total_count
+ * @property \PayPal\Api\Invoice[] $invoices
  */
 class InvoiceSearchResponse extends PayPalModel
 {

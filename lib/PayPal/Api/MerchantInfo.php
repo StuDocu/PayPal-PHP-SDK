@@ -11,17 +11,17 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property string email
- * @property string first_name
- * @property string last_name
- * @property \PayPal\Api\InvoiceAddress address
- * @property string business_name
- * @property \PayPal\Api\Phone phone
- * @property \PayPal\Api\Phone fax
- * @property string website
- * @property string tax_id
- * @property string additional_info_label
- * @property string additional_info
+ * @property string $email
+ * @property string $first_name
+ * @property string $last_name
+ * @property \PayPal\Api\InvoiceAddress $address
+ * @property string $business_name
+ * @property \PayPal\Api\Phone $phone
+ * @property \PayPal\Api\Phone $fax
+ * @property string $website
+ * @property string $tax_id
+ * @property string $additional_info_label
+ * @property string $additional_info
  */
 class MerchantInfo extends PayPalModel
 {

@@ -15,11 +15,11 @@ use PayPal\Rest\ApiContext;
  *
  * @package PayPal\Api
  *
- * @property \PayPal\Api\Address[] addresses
- * @property string[] emails
- * @property \PayPal\Api\Phone[] phones
- * @property \PayPal\Api\Template[] templates
- * @property \PayPal\Api\Links[] links
+ * @property \PayPal\Api\Address[] $addresses
+ * @property string[] $emails
+ * @property \PayPal\Api\Phone[] $phones
+ * @property \PayPal\Api\Template[] $templates
+ * @property \PayPal\Api\Links[] $links
  */
 class Templates extends PayPalResourceModel
 {

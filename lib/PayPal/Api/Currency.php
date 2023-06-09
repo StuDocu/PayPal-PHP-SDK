@@ -13,8 +13,8 @@ use PayPal\Validation\NumericValidator;
  *
  * @package PayPal\Api
  *
- * @property string currency
- * @property string value
+ * @property string $currency
+ * @property string $value
  */
 class Currency extends PayPalModel
 {

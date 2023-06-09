@@ -11,8 +11,8 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property string payer_id
- * @property \PayPal\Api\Transaction[] transactions
+ * @property string $payer_id
+ * @property \PayPal\Api\Transaction[] $transactions
  */
 class PaymentExecution extends PayPalModel
 {

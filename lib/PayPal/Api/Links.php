@@ -11,12 +11,12 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property string href
- * @property string rel
- * @property \PayPal\Api\HyperSchema targetSchema
- * @property string method
- * @property string enctype
- * @property \PayPal\Api\HyperSchema schema
+ * @property string $href
+ * @property string $rel
+ * @property \PayPal\Api\HyperSchema $targetSchema
+ * @property string $method
+ * @property string $enctype
+ * @property \PayPal\Api\HyperSchema $schema
  */
 class Links extends PayPalModel
 {

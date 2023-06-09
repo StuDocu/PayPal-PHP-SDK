@@ -12,16 +12,16 @@ use PayPal\Validation\UrlValidator;
  *
  * @package PayPal\Api
  *
- * @property string created_date
- * @property string created_by
- * @property string cancelled_date
- * @property string cancelled_by
- * @property string last_updated_date
- * @property string last_updated_by
- * @property string first_sent_date
- * @property string last_sent_date
- * @property string last_sent_by
- * @property string payer_view_url
+ * @property string $created_date
+ * @property string $created_by
+ * @property string $cancelled_date
+ * @property string $cancelled_by
+ * @property string $last_updated_date
+ * @property string $last_updated_by
+ * @property string $first_sent_date
+ * @property string $last_sent_date
+ * @property string $last_sent_by
+ * @property string $payer_view_url
  */
 class Metadata extends PayPalModel
 {

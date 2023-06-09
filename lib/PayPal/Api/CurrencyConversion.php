@@ -12,14 +12,14 @@ use PayPal\Validation\UrlValidator;
  *
  * @package PayPal\Api
  *
- * @property string conversion_date
- * @property string from_currency
- * @property string from_amount
- * @property string to_currency
- * @property string to_amount
- * @property string conversion_type
- * @property bool conversion_type_changeable
- * @property \PayPal\Api\Links[] links
+ * @property string $conversion_date
+ * @property string $from_currency
+ * @property string $from_amount
+ * @property string $to_currency
+ * @property string $to_amount
+ * @property string $conversion_type
+ * @property bool $conversion_type_changeable
+ * @property \PayPal\Api\Links[] $links
  */
 class CurrencyConversion extends PayPalModel
 {

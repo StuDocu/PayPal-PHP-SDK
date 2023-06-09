@@ -12,26 +12,26 @@ use PayPal\Validation\UrlValidator;
  *
  * @package PayPal\Api
  *
- * @property \PayPal\Api\MerchantInfo merchant_info
- * @property \PayPal\Api\BillingInfo[] billing_info
- * @property string[] cc_info
- * @property \PayPal\Api\ShippingInfo shipping_info
- * @property \PayPal\Api\InvoiceItem[] items
- * @property \PayPal\Api\PaymentTerm payment_term
- * @property string reference
- * @property \PayPal\Api\Cost discount
- * @property \PayPal\Api\ShippingCost shipping_cost
- * @property \PayPal\Api\CustomAmount custom
- * @property bool allow_partial_payment
- * @property \PayPal\Api\Currency minimum_amount_due
- * @property bool tax_calculated_after_discount
- * @property bool tax_inclusive
- * @property string terms
- * @property string note
- * @property string merchant_memo
- * @property string logo_url
- * @property \PayPal\Api\Currency total_amount
- * @property \PayPal\Api\FileAttachment[] attachments
+ * @property \PayPal\Api\MerchantInfo $merchant_info
+ * @property \PayPal\Api\BillingInfo[] $billing_info
+ * @property string[] $cc_info
+ * @property \PayPal\Api\ShippingInfo $shipping_info
+ * @property \PayPal\Api\InvoiceItem[] $items
+ * @property \PayPal\Api\PaymentTerm $payment_term
+ * @property string $reference
+ * @property \PayPal\Api\Cost $discount
+ * @property \PayPal\Api\ShippingCost $shipping_cost
+ * @property \PayPal\Api\CustomAmount $custom
+ * @property bool $allow_partial_payment
+ * @property \PayPal\Api\Currency $minimum_amount_due
+ * @property bool $tax_calculated_after_discount
+ * @property bool $tax_inclusive
+ * @property string $terms
+ * @property string $note
+ * @property string $merchant_memo
+ * @property string $logo_url
+ * @property \PayPal\Api\Currency $total_amount
+ * @property \PayPal\Api\FileAttachment[] $attachments
  */
 class TemplateData extends PayPalModel
 {

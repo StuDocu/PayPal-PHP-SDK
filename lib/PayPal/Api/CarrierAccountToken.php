@@ -11,8 +11,8 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property string carrier_account_id
- * @property string external_customer_id
+ * @property string $carrier_account_id
+ * @property string $external_customer_id
  */
 class CarrierAccountToken extends PayPalModel
 {

@@ -11,10 +11,10 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property string subject
- * @property string note
- * @property bool send_to_merchant
- * @property string[] cc_emails
+ * @property string $subject
+ * @property string $note
+ * @property bool $send_to_merchant
+ * @property string[] $cc_emails
  */
 class Notification extends PayPalModel
 {

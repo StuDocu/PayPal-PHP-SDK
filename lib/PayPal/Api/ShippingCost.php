@@ -11,8 +11,8 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property \PayPal\Api\Currency amount
- * @property \PayPal\Api\Tax tax
+ * @property \PayPal\Api\Currency $amount
+ * @property \PayPal\Api\Tax $tax
  */
 class ShippingCost extends PayPalModel
 {

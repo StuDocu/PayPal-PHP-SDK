@@ -11,7 +11,7 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property \PayPal\Api\Amount amount
+ * @property \PayPal\Api\Amount $amount
  */
 class Transactions extends PayPalModel
 {

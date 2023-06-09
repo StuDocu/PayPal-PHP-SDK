@@ -11,8 +11,8 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property string field_name
- * @property \PayPal\Api\TemplateSettingsMetadata display_preference
+ * @property string $field_name
+ * @property \PayPal\Api\TemplateSettingsMetadata $display_preference
  */
 class TemplateSettings extends PayPalModel
 {

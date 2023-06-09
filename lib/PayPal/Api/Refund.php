@@ -13,19 +13,19 @@ use PayPal\Rest\ApiContext;
  *
  * @package PayPal\Api
  *
- * @property string id
- * @property \PayPal\Api\Amount amount
- * @property string state
- * @property string reason
- * @property string invoice_number
- * @property string sale_id
- * @property string capture_id
- * @property string parent_payment
- * @property string description
- * @property string create_time
- * @property string update_time
- * @property string reason_code
- * @property \PayPal\Api\Links[] links
+ * @property string $id
+ * @property \PayPal\Api\Amount $amount
+ * @property string $state
+ * @property string $reason
+ * @property string $invoice_number
+ * @property string $sale_id
+ * @property string $capture_id
+ * @property string $parent_payment
+ * @property string $description
+ * @property string $create_time
+ * @property string $update_time
+ * @property string $reason_code
+ * @property \PayPal\Api\Links[] $links
  */
 class Refund extends PayPalResourceModel
 {

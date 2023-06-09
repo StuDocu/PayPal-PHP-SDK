@@ -11,14 +11,14 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property string line1
- * @property string line2
- * @property string city
- * @property string country_code
- * @property string postal_code
- * @property string state
- * @property string normalization_status
- * @property string status
+ * @property string $line1
+ * @property string $line2
+ * @property string $city
+ * @property string $country_code
+ * @property string $postal_code
+ * @property string $state
+ * @property string $normalization_status
+ * @property string $status
  */
 class BaseAddress extends PayPalModel
 {

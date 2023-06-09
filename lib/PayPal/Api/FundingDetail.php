@@ -11,10 +11,10 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property string clearing_time
- * @property string payment_hold_date
- * @property string payment_debit_date
- * @property string processing_type
+ * @property string $clearing_time
+ * @property string $payment_hold_date
+ * @property string $payment_debit_date
+ * @property string $processing_type
  */
 class FundingDetail extends PayPalModel
 {

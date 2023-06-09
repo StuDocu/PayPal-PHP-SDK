@@ -11,11 +11,11 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property string payment_method
- * @property string status
- * @property \PayPal\Api\FundingInstrument[] funding_instruments
- * @property string external_selected_funding_instrument_type
- * @property \PayPal\Api\PayerInfo payer_info
+ * @property string $payment_method
+ * @property string $status
+ * @property \PayPal\Api\FundingInstrument[] $funding_instruments
+ * @property string $external_selected_funding_instrument_type
+ * @property \PayPal\Api\PayerInfo $payer_info
  */
 class Payer extends PayPalModel
 {

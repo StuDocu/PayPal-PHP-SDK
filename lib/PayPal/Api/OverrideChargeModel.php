@@ -11,8 +11,8 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property string charge_id
- * @property \PayPal\Api\Currency amount
+ * @property string $charge_id
+ * @property \PayPal\Api\Currency $amount
  */
 class OverrideChargeModel extends PayPalModel
 {

@@ -13,7 +13,7 @@ use PayPal\Common\PayPalModel;
  *
  * @deprecated Used internally only.
  *
- * @property string billing_agreement_id
+ * @property string $billing_agreement_id
  */
 class Billing extends PayPalModel
 {

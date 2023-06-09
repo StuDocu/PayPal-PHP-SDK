@@ -11,9 +11,9 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property \PayPal\Api\PayoutBatchHeader batch_header
- * @property \PayPal\Api\PayoutItemDetails[] items
- * @property \PayPal\Api\Links[] links
+ * @property \PayPal\Api\PayoutBatchHeader $batch_header
+ * @property \PayPal\Api\PayoutItemDetails[] $items
+ * @property \PayPal\Api\Links[] $links
  */
 class PayoutBatch extends PayPalModel
 {

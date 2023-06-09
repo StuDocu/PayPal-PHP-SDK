@@ -12,19 +12,19 @@ use PayPal\Validation\UrlValidator;
  *
  * @package PayPal\Api
  *
- * @property string reference_id
- * @property \PayPal\Api\Amount amount
- * @property \PayPal\Api\Payee payee
- * @property string description
- * @property string note_to_payee
- * @property string custom
- * @property string invoice_number
- * @property string purchase_order
- * @property string soft_descriptor
- * @property \PayPal\Api\PaymentOptions payment_options
- * @property \PayPal\Api\ItemList item_list
- * @property string notify_url
- * @property string order_url
+ * @property string $reference_id
+ * @property \PayPal\Api\Amount $amount
+ * @property \PayPal\Api\Payee $payee
+ * @property string $description
+ * @property string $note_to_payee
+ * @property string $custom
+ * @property string $invoice_number
+ * @property string $purchase_order
+ * @property string $soft_descriptor
+ * @property \PayPal\Api\PaymentOptions $payment_options
+ * @property \PayPal\Api\ItemList $item_list
+ * @property string $notify_url
+ * @property string $order_url
  */
 class CartBase extends PayPalModel
 {

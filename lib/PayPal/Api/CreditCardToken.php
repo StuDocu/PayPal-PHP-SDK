@@ -11,12 +11,12 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property string credit_card_id
- * @property string payer_id
- * @property string last4
- * @property string type
- * @property int expire_month
- * @property int expire_year
+ * @property string $credit_card_id
+ * @property string $payer_id
+ * @property string $last4
+ * @property string $type
+ * @property int $expire_month
+ * @property int $expire_year
  */
 class CreditCardToken extends PayPalModel
 {

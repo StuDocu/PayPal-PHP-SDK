@@ -11,9 +11,9 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property \PayPal\Api\WebhookEvent[] events
- * @property int count
- * @property \PayPal\Api\Links[] links
+ * @property \PayPal\Api\WebhookEvent[] $events
+ * @property int $count
+ * @property \PayPal\Api\Links[] $links
  */
 class WebhookEventList extends PayPalModel
 {

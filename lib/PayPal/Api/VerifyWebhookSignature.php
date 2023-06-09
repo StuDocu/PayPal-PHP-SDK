@@ -15,13 +15,13 @@ use PayPal\Validation\UrlValidator;
  *
  * @package PayPal\Api
  *
- * @property string auth_algo
- * @property string cert_url
- * @property string transmission_id
- * @property string transmission_sig
- * @property string transmission_time
- * @property string webhook_id
- * @property \PayPal\Api\WebhookEvent webhook_event
+ * @property string $auth_algo
+ * @property string $cert_url
+ * @property string $transmission_id
+ * @property string $transmission_sig
+ * @property string $transmission_time
+ * @property string $webhook_id
+ * @property \PayPal\Api\WebhookEvent $webhook_event
  */
 class VerifyWebhookSignature extends PayPalResourceModel
 {

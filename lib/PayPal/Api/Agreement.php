@@ -15,19 +15,19 @@ use PayPal\Validation\ArgumentValidator;
  *
  * @package PayPal\Api
  *
- * @property string id
- * @property string state
- * @property string name
- * @property string description
- * @property string start_date
- * @property \PayPal\Api\Payer payer
- * @property \PayPal\Api\Address shipping_address
- * @property \PayPal\Api\MerchantPreferences override_merchant_preferences
- * @property \PayPal\Api\OverrideChargeModel[] override_charge_models
- * @property \PayPal\Api\Plan plan
- * @property string create_time
- * @property string update_time
- * @property \PayPal\Api\AgreementDetails agreement_details
+ * @property string $id
+ * @property string $state
+ * @property string $name
+ * @property string $description
+ * @property string $start_date
+ * @property \PayPal\Api\Payer $payer
+ * @property \PayPal\Api\Address $shipping_address
+ * @property \PayPal\Api\MerchantPreferences $override_merchant_preferences
+ * @property \PayPal\Api\OverrideChargeModel[] $override_charge_models
+ * @property \PayPal\Api\Plan $plan
+ * @property string $create_time
+ * @property string $update_time
+ * @property \PayPal\Api\AgreementDetails $agreement_details
  */
 class Agreement extends PayPalResourceModel
 {

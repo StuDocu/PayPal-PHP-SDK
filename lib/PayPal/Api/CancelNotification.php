@@ -11,11 +11,11 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property string subject
- * @property string note
- * @property bool send_to_merchant
- * @property bool send_to_payer
- * @property string[] cc_emails
+ * @property string $subject
+ * @property string $note
+ * @property bool $send_to_merchant
+ * @property bool $send_to_payer
+ * @property string[] $cc_emails
  */
 class CancelNotification extends PayPalModel
 {

@@ -11,10 +11,10 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property string op
- * @property string path
- * @property mixed value
- * @property string from
+ * @property string $op
+ * @property string $path
+ * @property mixed $value
+ * @property string $from
  */
 class Patch extends PayPalModel
 {

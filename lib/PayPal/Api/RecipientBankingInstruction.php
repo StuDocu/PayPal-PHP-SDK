@@ -11,12 +11,12 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property string bank_name
- * @property string account_holder_name
- * @property string account_number
- * @property string routing_number
- * @property string international_bank_account_number
- * @property string bank_identifier_code
+ * @property string $bank_name
+ * @property string $account_holder_name
+ * @property string $account_number
+ * @property string $routing_number
+ * @property string $international_bank_account_number
+ * @property string $bank_identifier_code
  */
 class RecipientBankingInstruction extends PayPalModel
 {

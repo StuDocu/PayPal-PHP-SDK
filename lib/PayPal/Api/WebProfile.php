@@ -14,12 +14,12 @@ use PayPal\Validation\ArgumentValidator;
  *
  * @package PayPal\Api
  *
- * @property string id
- * @property string name
- * @property bool temporary
- * @property \PayPal\Api\FlowConfig flow_config
- * @property \PayPal\Api\InputFields input_fields
- * @property \PayPal\Api\Presentation presentation
+ * @property string $id
+ * @property string $name
+ * @property bool $temporary
+ * @property \PayPal\Api\FlowConfig $flow_config
+ * @property \PayPal\Api\InputFields $input_fields
+ * @property \PayPal\Api\Presentation $presentation
  */
 class WebProfile extends PayPalResourceModel
 {

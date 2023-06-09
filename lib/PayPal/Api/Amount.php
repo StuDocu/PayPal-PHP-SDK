@@ -13,9 +13,9 @@ use PayPal\Validation\NumericValidator;
  *
  * @package PayPal\Api
  *
- * @property string currency
- * @property string total
- * @property \PayPal\Api\Details details
+ * @property string $currency
+ * @property string $total
+ * @property \PayPal\Api\Details $details
  */
 class Amount extends PayPalModel
 {

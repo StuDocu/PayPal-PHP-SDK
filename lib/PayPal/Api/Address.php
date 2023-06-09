@@ -9,8 +9,8 @@ namespace PayPal\Api;
  *
  * @package PayPal\Api
  *
- * @property string phone
- * @property string type
+ * @property string $phone
+ * @property string $type
  */
 class Address extends BaseAddress
 {

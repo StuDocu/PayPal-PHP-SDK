@@ -11,7 +11,7 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property \PayPal\Api\Patch[] patches
+ * @property \PayPal\Api\Patch[] $patches
  */
 class PatchRequest extends PayPalModel
 {

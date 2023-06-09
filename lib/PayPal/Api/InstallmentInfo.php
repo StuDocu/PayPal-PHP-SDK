@@ -11,10 +11,10 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property string installment_id
- * @property string network
- * @property string issuer
- * @property \PayPal\Api\InstallmentOption[] installment_options
+ * @property string $installment_id
+ * @property string $network
+ * @property string $issuer
+ * @property \PayPal\Api\InstallmentOption[] $installment_options
  */
 class InstallmentInfo extends PayPalModel
 {

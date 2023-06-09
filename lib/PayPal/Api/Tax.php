@@ -13,10 +13,10 @@ use PayPal\Validation\NumericValidator;
  *
  * @package PayPal\Api
  *
- * @property string id
- * @property string name
- * @property \PayPal\Api\number percent
- * @property \PayPal\Api\Currency amount
+ * @property string $id
+ * @property string $name
+ * @property \PayPal\Api\number $percent
+ * @property \PayPal\Api\Currency $amount
  */
 class Tax extends PayPalModel
 {

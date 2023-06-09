@@ -11,11 +11,11 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property string id
- * @property string phone_number
- * @property string external_customer_id
- * @property string phone_source
- * @property \PayPal\Api\CountryCode country_code
+ * @property string $id
+ * @property string $phone_number
+ * @property string $external_customer_id
+ * @property string $phone_source
+ * @property \PayPal\Api\CountryCode $country_code
  */
 class CarrierAccount extends PayPalModel
 {

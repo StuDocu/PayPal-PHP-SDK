@@ -11,8 +11,8 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property string name
- * @property string value
+ * @property string $name
+ * @property string $value
  */
 class NameValuePair extends PayPalModel
 {

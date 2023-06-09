@@ -11,11 +11,11 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property string first_name
- * @property string last_name
- * @property string business_name
- * @property \PayPal\Api\Phone phone
- * @property \PayPal\Api\InvoiceAddress address
+ * @property string $first_name
+ * @property string $last_name
+ * @property string $business_name
+ * @property \PayPal\Api\Phone $phone
+ * @property \PayPal\Api\InvoiceAddress $address
  */
 class ShippingInfo extends PayPalModel
 {

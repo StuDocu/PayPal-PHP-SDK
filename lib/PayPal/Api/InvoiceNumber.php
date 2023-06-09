@@ -11,7 +11,7 @@ use PayPal\Common\PayPalModel;
  *
  * @package PayPal\Api
  *
- * @property string number
+ * @property string $number
  */
 class InvoiceNumber extends PayPalModel
 {
